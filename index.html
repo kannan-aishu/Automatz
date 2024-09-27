@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Automatz - Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|DM+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/css/aos.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/glightbox.min.css" rel="stylesheet">
+  <!-- <link href="assets/css/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center absolute fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Automatz<span>.</span></a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="about-us.html"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li><a class="nav-link" href="service.html">Services</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Automation</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#"><span>Delta</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul class="dropdown">
+                        <li><a class="nav-link" href="plc.html">PLC</a></li>
+                        <li><a class="nav-link" href="servo.html">Servo Drives & Motors</a></li>
+                        <li><a class="nav-link" href="vfd.html">VFD</a></li>
+                        <li><a class="nav-link" href="hmi.html">HMI</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><span>Wago</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul class="dropdown">
+                      <li><a class="nav-link" href="plc_controllers.html">PLCs-Controllers</a></li>
+                      <li><a class="nav-link" href="io_systems.html">I/O Systems</a></li>
+                      <li><a class="nav-link" href="touch_panel.html">Touch Panel</a></li>
+                      <li><a class="nav-link" href="sensor.html">Sensor/Acutator Boxes</a></li>
+                      <li><a class="nav-link" href="ind_switches.html">Industrial Switches</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link" href="packaging.html">Packaging & Printing</a></li>
+                    <li><a class="nav-link" href="food.html">Food & beverage</a></li>
+                    <li><a class="nav-link" href="textile.html">Textile industry</a></li>
+                    <li><a class="nav-link" href="water.html">Water & wastewater</a></li>
+                    <li><a class="nav-link" href="iron.html">Iron & steel</a></li>
+                    <li><a class="nav-link" href="pharma.html">Pharma indudstry</a></li>
+                    <li><a class="nav-link" href="rubber.html">Rubber & plastic industry</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Industry X.0</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Modules</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                    <li><a class="nav-link" href="df.html">Delta Factory</a></li>
+                    <li><a class="nav-link" href="ems.html">Energy Monitoring System</a></li>
+                    <li><a class="nav-link" href="oee.html">OEE Monitoring</a></li>
+                    <li><a class="nav-link" href="cmms.html">Computerized Maintanace<br> Management System</a></li>
+                    <li><a class="nav-link" href="cbm.html">Condition Based Monitoring</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                    <li><a class="nav-link" href="assembly-line-monitoring.html">Assembly Line Monitoring</a></li>
+                    <li><a class="nav-link" href="process-monitoring.html">Process Monitoring</a></li>
+                    <li><a class="nav-link" href="predictive-maintanance.html">Predictive Maintanance</a></li>
+                    <li><a class="nav-link" href="foundry-monitoring.html">Foundry Monitoring</a></li>
+                    <li><a class="nav-link" href="wms.html">Warehouse Management System</a></li>
+                    <li><a class="nav-link" href="andon-display-system.html">Andon Display System</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Robotics</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li><a class="nav-link" href="#">Dobot</a></li>
+                <li><a class="nav-link" href="io_systems.html">Delta</a></li>
+              </ul>
+          </li>
+          <li><a class="nav-link" href="contact-us.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="search-form"><ul><li><div class="search-bar">
+        <form class="search-form d-flex align-items-center" method="POST" action="#">
+          <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+          <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>
+      </div></li></ul></div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex pb-0 section-bg bg-image" data-image-src="assets/img/bg/Robotics-Home-image.jpg">
+    
+    <span class="shape-img"><img src="assets/img/bulp-right-theme.png" class="img-fluid" alt=""></span>
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="row">
+        <div class="col-md-8">
+              <!-- Section Subtitle Start -->
+              <div class="intro-sec-right">
+                <div class="subtitle text-white text-uppercase mb-3 d-inline">Welcome to Robotics</div>
+              </div>
+              <div class="intro-title">
+              <h1>Force of Robotics To Business.</h1>
+              </div>  
+        </div>
+            <div class="col-md-4"></div>
+              <div class="col-md-7 align-items-center">
+                <div class="intro-img">
+                  <img src="assets/img/intro-banner.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-md-5 position-static">
+              <!-- CTA -->
+              <div class="intro-cta position-relative d-flex flex-row align-items-center">
+                <div class="img-list d-flex">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid minus-ml-15" alt="">
+                </div>
+                <div class="inner-btn ms-4"><a href="about-us.html">Explore More</a></div>
+                <div class="inner-btn-icon ms-4"><a href="#"><i class="bi bi-arrow-up-right"></i></a></div>
+              </div>
+              <!-- Section title Description Start -->
+              <div class="title-desc mt-5 mb-5 pe-5 me-5">
+                We're fascinated about Robotics because they mimic life".
+              </div>
+              <div class="d-flex">
+                <a href="contact-us.html" class="btn btn-default scrollto">Get Started <i class="bi bi-arrow-right"></i></a>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+            </div>
+      </div>
+        
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services section-bg">
+      <div class="container custom-container" data-aos="fade-up">
+        <!-- Row Start -->
+						<div class="row">
+							<!-- Column Start -->
+							<div class="col-md-12">
+								<!-- Section Title Wrap Start -->
+									<div class="section-title-wrap">
+										<!-- Section Subtitle Start -->
+										<h6 class="subtitle text-uppercase">Automatz Offerings</h6>
+										<!-- Section Subtitle End -->
+										<h2 class="section-title fw-bold">Solutions that shape technological innovation</h2>
+									</div>
+								<!-- Section Title Wrap End -->
+							</div>
+						</div>
+        <div class="row">
+
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <span class="icon-box-number">02</span>
+              <div class="post-thumb"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+              <div class="icon"><img src="assets/img/service/icon-1.png" class="img-fluid" alt=""></div>
+              <h4 class="title"><a href="#">Automation</a></h4>
+              <p class="description">Automatz's cutting-edge automation technology gives you all the tools to drive the change.</p>
+              <div class="readmore-txt">
+                <a href="#" class="read-link">More Info <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <span class="icon-box-number">02</span>
+              <div class="post-thumb"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+              <div class="icon"><img src="assets/img/service/icon-2.png" class="img-fluid" alt=""></div>
+              <h4 class="title"><a href="#">Industry X.0</a></h4>
+              <p class="description">Automatz's can aid in the mastery of a digital transformation that will enrich its clients in the future.</p>
+              <div class="readmore-txt">
+                <a href="#" class="read-link">More Info <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <span class="icon-box-number">02</span>
+              <div class="post-thumb"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+              <div class="icon"><img src="assets/img/service/icon-3.png" class="img-fluid" alt=""></div>
+              <h4 class="title"><a href="#">Robotics</a></h4>
+              <p class="description">Automatz fosters turnkey automate RPA for manufacturers with a significant focus on customer.</p>
+              <div class="readmore-txt">
+                <a href="#" class="read-link">More Info <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <span class="icon-box-number">02</span>
+              <div class="post-thumb"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+              <div class="icon"><img src="assets/img/service/icon-4.png" class="img-fluid" alt=""></div>
+              <h4 class="title"><a href="#">Panel Building</a></h4>
+              <p class="description">Automatz's holistic control panel building is a data for digitalization & our consistent one-stop product.</p>
+              <div class="readmore-txt">
+                <a href="#" class="read-link">More Info <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about-me" class="about-me position-relative">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="intro-img mx-auto">
+              <img src="assets/img/about-image.jpg" class="img-fluid position-relative" alt="">
+          </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 ps-lg-3 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-12">
+              <div class="section-title-wrap mb-4">
+                <!-- Section Subtitle Start -->
+                <h6 class="subtitle text-uppercase">About Company</h6>
+                <!-- Section Subtitle End -->
+                <h2 class="section-title fw-bold mb-0 pb-4">The Best way to predict future is to create it !</h2>
+                <p>
+                  Ausweg enables customers to rejuvenate their industries by integrating the real and digital worlds, based on shared values for a sustainable future. You're investing in the future technology when you choose Ausweg and its solutions.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="about-list">
+                  <div class="about-details mb-4 pb-2">
+                    <div class="list-item mb-4">
+                      <div class="media d-flex">
+                        <!-- Icon Left -->
+                        <div class="icon-left align-self-center me-4">
+                          <i class="bi bi-coin theme-color"></i>
+                        </div>
+                        <div class="media-body">                              
+                          <div class="list-title-inner">
+                            <h5 class="mt-1">Our Mission</h5>
+                          </div>
+                          <div class="mt-3"> 
+                            We strive to create a scalable and sustainable solution to empower customers with new age technologies at the right value within desired time.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-item">
+                      <div class="media d-flex">
+                        <!-- Icon Left -->
+                        <div class="icon-left align-self-center me-4">
+                          <i class="bi bi-bullseye theme-color"></i>
+                        </div>
+                        <div class="media-body">                              
+                          <div class="list-title-inner">
+                            <h5 class="mt-1">Our Vision</h5>
+                          </div>
+                          <div class="mt-3"> 
+                            To become the most preferred global partner for automation and digitalization solutions
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                  
+                <a href="about-us.html" class="btn btn-default">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume-section" class="resume-section section-bg">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <!-- Column Start -->
+          <div class="col-md-8">
+            <!-- Section Title Wrap Start -->
+              <div class="section-title-wrap text-center">
+                <!-- Section Subtitle Start -->
+                <h6 class="subtitle text-uppercase mb-2 d-inline">Our Prime Solutions</h6>
+                <!-- Section Subtitle End -->
+                <h2 class="section-title fw-bold">We would love to add values that leads to outcomes</h2>
+              </div>
+            <!-- Section Title Wrap End -->
+          </div>
+        </div>
+        <div class="row resume-container" data-aos="fade-up" data-aos-delay="200">
+          
+          <!-- Resume Item -->
+          <div class="col-lg-4 col-md-12">
+            <!-- Vertical Tabs -->
+              <!-- Tab Menu -->
+              <div class="tab-nav-menu">
+                <!-- Tab List Start -->
+                <ul class="tab-list">
+                  <div class="d-flex tab-nav-menu nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                    <li class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button">
+                      <span class="tab-count">01.</span> Digital Factory </li>
+                    <li class="nav-link" id="v-pills-jobs-tab" data-bs-toggle="pill" data-bs-target="#v-pills-jobs" type="button" role="tab">
+                      <span class="tab-count">02.</span class="text-uppercase"> EMS</li>
+                    <li class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab">
+                      <span class="tab-count">03.</span> CMMS</li>
+                    <li class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab">
+                      <span class="tab-count">04.</span> OEE Monitoring </li>
+                    <li class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab">
+                      <span class="tab-count">05.</span> Robotics</li>
+                      <li class="nav-link" id="v-pills-structures-tab" data-bs-toggle="pill" data-bs-target="#v-pills-structures" type="button" role="tab">
+                        <span class="tab-count">06.</span> Data Structures</li>
+                  </div>
+                  </ul>
+                  <!-- Tab List End -->
+                </ul>
+              </div>
+              </div>
+            <div class="col-lg-8 col-md-12 ps-lg-4">
+              <!-- Tab Menu -->
+              <div class="tab-content" id="v-pills-tabContent">
+                <!-- Tab Panel -->
+                <div class="tab-pane fade show active" id="v-pills-home">
+                  <div class="row">
+                    <!-- col-md-6 -->
+                    <div class="col-md-12">
+                      <!-- Tab Content Inner -->
+                      <div class="tab-content-inner position-relative">
+                        <div class="tab-image">
+                          <img src="assets/img/service/digital-factory.png" alt="Digital Factory">
+                        </div>
+
+                        <!-- Tab Item -->
+                        <div class="tab-item">
+                          <div class="media d-flex">
+                            <div class="media-body">                              
+                              <div class="tab-title-inner">
+                                <h4 class="mt-1">Digital Factory</h4>
+                              </div>
+                              <div class="my-3 pb-1"> 
+                                Ausweg Digital factory improves control of manufacturing workflows and the movement of everything from raw materials to work-in-progress and finished goods.
+                              </div>
+                              <div class="readmore-txt">
+                                <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Tab Item End -->
+                      </div>
+                      <!-- Tab Content Inner -->
+                    </div>
+                    <!-- col-md-12 end -->
+                    </div>
+                    <!-- row end -->
+                  </div>
+                  <!-- Tab panel end -->
+                  <div class="tab-pane fade" id="v-pills-jobs">
+                    <div class="row">
+                      <!-- col-md-6 -->
+                      <div class="col-md-12">
+                        <!-- Tab Content Inner -->
+                        <div class="tab-content-inner position-relative">
+                          <div class="tab-image">
+                            <img src="assets/img/service/EMS.png" alt="Digital Factory">
+                          </div>
+                          <!-- Tab Item -->
+                          <div class="tab-item">
+                            <div class="media d-flex">
+                              <div class="media-body">                              
+                                <div class="tab-title-inner">
+                                  <h4 class="mt-1">Energy Management System (EMS)</h4>
+                                </div>
+                                <div class="my-3"> 
+                                  Monitor consumption using Ausweg energy monitoring dashboard and costs in one place to provide customized utility report for every metering point.
+                                </div>
+                                <div class="readmore-txt">
+                                  <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Tab Item End -->
+                        </div>
+                        <!-- Tab Content Inner -->
+                      </div>
+                      <!-- col-md-12 end -->
+                      </div>
+                      <!-- row end -->
+                    </div>
+                  <div class="tab-pane fade" id="v-pills-profile">
+                    <div class="row">
+                      <!-- col-md-6 -->
+                      <div class="col-md-12">
+                        <!-- Tab Content Inner -->
+                        <div class="tab-content-inner position-relative">
+                          <div class="tab-image">
+                            <img src="assets/img/service/CMMS.png" alt="Digital Factory">
+                          </div>
+  
+                          <!-- Tab Item -->
+                          <div class="tab-item">
+                            <div class="media d-flex">
+                              <div class="media-body">                              
+                                <div class="tab-title-inner">
+                                  <h4 class="mt-1">Computerized Maintanance Management System (CMMS)</h4>
+                                </div>
+                                <div class="my-3"> 
+                                  Ausweg's CMMS is a streamlined approach that ensures the right thing is being done at the right time for all of your equipment and facilities with the ability to report on what matters to you.
+                                </div>
+                                <div class="readmore-txt">
+                                  <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Tab Item End -->
+                        </div>
+                        <!-- Tab Content Inner -->
+                      </div>
+                      <!-- col-md-12 end -->
+                      </div>
+                      <!-- row end -->
+                    </div>
+                  <div class="tab-pane fade" id="v-pills-messages">
+                    <div class="row">
+                      <!-- col-md-6 -->
+                      <div class="col-md-12">
+                        <!-- Tab Content Inner -->
+                        <div class="tab-content-inner position-relative">
+                          <div class="tab-image">
+                            <img src="assets/img/service/OEE.png" alt="Digital Factory">
+                          </div>
+  
+                          <!-- Tab Item -->
+                          <div class="tab-item">
+                            <div class="media d-flex">
+                              <div class="media-body">                              
+                                <div class="tab-title-inner">
+                                  <h4 class="mt-1">Overall Equipment Effectiveness (OEE)
+                                  </h4>
+                                </div>
+                                <div class="my-3"> 
+                                  Ausweg OEE measure how well a manufacturing operation is utilized (facilities, time and material) compared to its full potential, during the periods when it is scheduled to run.
+                                </div>
+                                <div class="readmore-txt">
+                                  <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Tab Item End -->
+                        </div>
+                        <!-- Tab Content Inner -->
+                      </div>
+                      <!-- col-md-12 end -->
+                      </div>
+                      <!-- row end -->
+                  </div>
+                  
+                  <div class="tab-pane fade" id="v-pills-settings">
+                    <div class="row">
+                      <!-- col-md-6 -->
+                      <div class="col-md-12">
+                        <!-- Tab Content Inner -->
+                        <div class="tab-content-inner position-relative">
+                          <div class="tab-image">
+                            <img src="assets/img/service/Robotics.png" alt="Digital Factory">
+                          </div>
+  
+                          <!-- Tab Item -->
+                          <div class="tab-item">
+                            <div class="media d-flex">
+                              <div class="media-body">                              
+                                <div class="tab-title-inner">
+                                  <h4 class="mt-1">Robotics</h4>
+                                </div>
+                                <div class="my-3"> 
+                                  Industrial robots are programmed for all kinds of applications to fulfill industry demands, and to realize “Automation for a Changing World”.
+                                </div>
+                                <div class="readmore-txt">
+                                  <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Tab Item End -->
+                        </div>
+                        <!-- Tab Content Inner -->
+                      </div>
+                      <!-- col-md-12 end -->
+                      </div>
+                      <!-- row end -->
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-structures">
+                        <div class="row">
+                          <!-- col-md-6 -->
+                          <div class="col-md-12">
+                            <!-- Tab Content Inner -->
+                            <div class="tab-content-inner position-relative">
+                              <div class="tab-image">
+                                <img src="assets/img/service/Delta.png" alt="Digital Factory">
+                              </div>
+      
+                              <!-- Tab Item -->
+                              <div class="tab-item">
+                                <div class="media d-flex">
+                                  <div class="media-body">                              
+                                    <div class="tab-title-inner">
+                                      <h4 class="mt-1">Delta Products</h4>
+                                    </div>
+                                    <div class="my-3"> 
+                                      Delta offers automation products and solutions with high performance and reliability, motion control systems, and communication, smart manufacturing solutions.
+                                    </div>
+                                    <div class="readmore-txt">
+                                      <a href="#" class="read-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Tab Item End -->
+                            </div>
+                            <!-- Tab Content Inner -->
+                          </div>
+                          <!-- col-md-12 end -->
+                          </div>
+                         
+              </div>
+              </div>
+          </div>
+           <!-- Vertical Tabs End -->
+          </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+    <!-- ======= CTA ======= -->
+    <section id="cta" class="cta bg-image position-relative" data-image-src="assets/img/testimonials-bg.jpg">
+      <span class="theme-overlay"></span>
+      <div class="container position-relative" data-aos="fade-up">
+
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="section-title-wrap title-theme">
+              <!-- Section Subtitle Start -->
+              <h6 class="subtitle text-uppercase">Get In Touch</h6>
+              <!-- Section Subtitle End -->
+              <h2 class="section-title fw-bold mb-0 pb-0 text-white">
+                Join our team and we shall
+                shape the future world !</h2>
+          </div>
+          </div>
+          <div class="col-md-4 text-end">
+            <div class="button-sec"><a href="contact-us.html" class="btn btn-default dark-bg">Contact Us <i class="bi bi-arrow-right"></i></a></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End CTA -->
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <!-- Container -->
+      <div class="container" data-aos="zoom-in">
+        <!-- Row -->
+        <div class="row">
+          <!-- col-md-4 -->
+          <div class="col-lg-4">
+              <div class="testimonial-left text-center">
+                <div class="quote-img-wrap mb-2">
+                  <img src="assets/img/quote.png" class="quote-img" alt="">
+                </div>
+                <div class="testimonial-rating">
+                  <p class="mb-0">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </p>
+                </div>
+                <div class="rating-txt">Trust Score 4.5 (Based on 1,200 reviews)</div>
+              </div>
+          </div>
+          <!-- col-md-8 -->
+          <div class="col-lg-8">
+        <div class="testimonials-slider swiper text-left" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="testimonial-img-wrap">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  </div>
+                  <div class="testimonial-details ms-4">
+                    <h3 class="testimonial-name">Saul Goodman</h3>
+                    <div class="testimonial-designation">Ceo &amp; Founder</div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Implementing automation in our workflow significantly increased efficiency. Tasks that used to take hours are now completed in minutes, allowing us to focus on strategic initiatives. It's a game-changer!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="testimonial-img-wrap">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  </div>
+                  <div class="testimonial-details ms-4">
+                    <h3 class="testimonial-name">Saul Goodman</h3>
+                    <div class="testimonial-designation">Ceo &amp; Founder</div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Automation streamlined our internal processes, reducing errors and improving overall accuracy. This not only saved time but also enhanced the quality of our services
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="testimonial-img-wrap">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  </div>
+                  <div class="testimonial-details ms-4">
+                    <h3 class="testimonial-name">Saul Goodman</h3>
+                    <div class="testimonial-designation">Ceo &amp; Founder</div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Home automation has made our lives so much easier. From smart thermostats to automated lighting, it's convenient and energy-efficient. Couldn't imagine going back to the old way!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="slide-navigation">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- col-md-8 end -->
+      </div>
+      <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Clients Section ======= -->
+<section id="clients" class="clients section-bg">
+  <div class="container" data-aos="zoom-in">
+    <div class="row">
+      <!-- Swiper -->
+      <div class="col-lg-12">
+        <div class="swiper client-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item-inner"><h5 class="client-title">John Due</h5><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="client-item"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""><h5 class="client-title">John Due</h5></a>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Clients Section -->
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Automatz<span>.</span></h3>
+            <div class="footer-contact-details mb-3">
+              <div class="widget-address"> HEAD OFFICE : Coimbatore</div>
+
+               <a href="tel:+55895548855" class="d-block"><strong>Phone:</strong> +5589 55488 55</a>
+               <a href="mailto:sales@automatz.com" class="d-block"><strong>Email:</strong> sales@automatz.com</a>
+            </div>
+            <div class="footer-contact-details">
+              <div class="widget-address"> BRANCH OFFICE : Chennai</div>
+
+               <a href="tel:+55895548855" class="d-block"><strong>Phone:</strong> +5589 55488 55</a>
+               <a href="mailto:sales@automatz.com" class="d-block"><strong>Email:</strong> sales@automatz.com</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a class="nav-link active" href="index.html">Home</a></li>
+              <li><a class="nav-link" href="about-us.html">About Us</a></li>
+              <li><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links            </h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Industry X.0</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Automation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Robotics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">News & Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>If you have a specific question or need information about a particular social network, feel free to ask! </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center pt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Automatz</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- <div id="preloader"></div> -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/js/purecounter_vanilla.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Jquery -->
+  <script src="assets/js/jquery-3.6.1.min.js"></script>
+  <script src="assets/js/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
